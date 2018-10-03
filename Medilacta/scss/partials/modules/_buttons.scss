@@ -1,0 +1,25 @@
+.btn {
+    margin: 0 auto;
+}
+.btn-default:link, .btn-default:visited {
+    background-color: $button-bgcolor;
+    border-radius: 20px;
+    box-shadow: 0 0px 0px rgba(175, 174, 175, 0.404), 0 1px 10px rgba(175, 174, 175, 0.404);
+    color: white;
+    display: table-cell;
+    font-family: $sofiasemibold;
+    font-size: 1.25rem;
+    margin-bottom: 150px;
+    padding: 15px 24px;
+    width: 190px;
+    text-align: center;
+    text-decoration: none;
+    transition: color .5s ease, background-color .5s ease, background-size .5s ease, border-color .5s ease;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+
+.btn-default:hover, .btn-default:active {
+    background-color: $hover-bgcolor;
+}

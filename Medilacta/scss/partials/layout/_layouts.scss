@@ -1,0 +1,158 @@
+.sec-color {
+    background-color: $back-gray;
+}
+
+.sec-color-default {
+  background-color: $primary-color;
+}
+  
+.section-intro {
+  padding: 120px 0 0 0;
+
+  @media screen and (min-width: $small) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: $medium) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: $large) {
+    flex-direction: row;     
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: $x-large) { 
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+////
+
+//seccion del video
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.col-heading {
+  text-align: center;
+  margin-top: 30px;
+  width: 240px;
+  display: inline-block;
+}
+
+.grve-custom-divider {
+  display: flex;
+  justify-content: center;
+  background-color: $purple;
+  height: 4px;
+  @media screen and (min-width: $small) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: $medium) {
+    display: flex;
+    flex-direction: center;
+  }
+
+  @media screen and (min-width: $large) {
+    flex-direction: row;     
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: $x-large) { 
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+/////////////////////////////////////////////////////
+.section-video {
+  padding: 120px 0 0 0;
+  @media screen and (min-width: $large) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.main_successStory_video {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  @media screen and (min-width: $large) {
+    width: 340px;
+    height: 260px;
+  }
+  @media screen and (min-width: $x-large) {
+    width: 560px;
+    height: 315px;
+  }
+}
+
+//boton
+.grve-element {
+  padding: 60px 0 60px 0;
+  display: flex;
+  justify-content: center;
+}
+//columnas de descripcion con imagenes
+.col-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.section-bookmark, .col-description  {
+  padding: 50px 25px 0 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  @media screen and (min-width: $small) {
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: $medium) {
+    flex-direction: center;
+  }
+
+  @media screen and (min-width: $large) {
+    flex-direction: row;     
+    justify-content: space-around;
+  }
+
+  @media screen and (min-width: $x-large) { 
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+
+.video-explained {
+  padding: 80px 0 60px;
+  @media screen and (min-width: $medium) {
+    width: 550px;
+  }
+}
+.quotes {
+  background: url(../../img/quotes.png);
+  background-position: -5px 115px;
+  background-repeat: no-repeat;
+  background-size: 35% 30%;
+  @media screen and (min-width: $medium) {
+    background-size: 15% 25%;
+  }
+}
+
+.col-lg {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.img-description {
+  width: 255px;
+}

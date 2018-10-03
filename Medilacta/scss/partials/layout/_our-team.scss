@@ -1,0 +1,35 @@
+.col-team {
+    background-color: $primary-color;
+    display: grid;
+    grid-auto-flow: dense; /* NEW */
+    margin-bottom: 50px;
+
+    @media screen and (min-width: $small) {
+        grid-template-columns: 1fr;
+    }
+    @media screen and (min-width: $large) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.col-txt-team {
+    padding: 120px 0 80px;
+    margin: 0 auto;
+   text-align: center;
+}
+
+.col-txt-doc {
+    padding: 120px 0px 80px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.col-imagen-team {
+    width: 70%;
+    margin-left: 150px;
+    background-image: url(../../../img/parents.jpg)!important;
+    background-position: 100%!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+}
+    

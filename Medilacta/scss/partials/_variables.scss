@@ -1,0 +1,74 @@
+//fonts
+
+@font-face {
+    font-family: 'sofia_probold';
+    src: url('../fonts/sofia_pro_bold-webfont.woff2') format('woff2'),
+         url('../sofia_pro_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia_promedium';
+    src: url('../fonts/sofia_pro_medium-webfont.woff2') format('woff2'),
+         url('../sofia_pro_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia_proregular';
+    src: url('../fonts/sofia_pro_regular-webfont.woff2') format('woff2'),
+         url('../sofia_pro_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia_prosemi_bold_italic';
+    src: url('../fonts/sofia_pro_semi_bold_italic-webfont.woff2') format('woff2'),
+         url('../sofia_pro_semi_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sofia_prosemi_bold';
+    src: url('../fonts/sofia_pro_semi_bold-webfont.woff2') format('woff2'),
+         url('../sofia_pro_semi_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+$font-family-base: 'sofia_proregular', sans-serif;
+$sofiasemibold: 'sofia_prosemi_bold', sans-serif;
+$sofiabold: 'sofia_probold', sans-serif;
+
+//colors
+$primary-color: #fff;
+$secundary-color: #272e3a;
+
+$light-grey: #fdfdfd;
+$medium-grey: #f9f8fb;
+$dark-grey: #8b9392;
+$hard-grey: #59585a;
+
+$back-gray:#fcfcfc;
+
+$purple: #515978;
+$magenta: #c7559b;
+$pink:#ee789e;
+$lilac: #D8A8CE;
+
+$hover-primary-color: #c7559b;
+$hover-bgcolor: #F9A8C2;
+$button-bgcolor: #ee789e;
+$color-a: #d8a8ce;
+
+// Navigation Variables
+$content-width: 1280px;
+$breakpoint: 800px;
+$nav-height: 10px;
+$link-hover-color: $pink;
+

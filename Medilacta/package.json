@@ -1,0 +1,25 @@
+{
+  "name": "medilacta-project",
+  "version": "1.0.0",
+  "description": "Proyecto Medilacta CR",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jordan G. Luna",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.6.1"
+  }
+}

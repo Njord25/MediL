@@ -1,0 +1,129 @@
+.pre-footer {
+    background-color: $lilac;
+    display: flex;
+}
+
+.col-txt-pre-footer {
+    padding: 120px 7px 80px;
+    margin-left: 145px;
+}
+
+.footer-text {
+    color: $primary-color;
+    font-family: $font-family-base;
+    display: inline-block;
+    text-align: justify;
+}
+.section-pre-footer {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.col-imagen {
+    width: 100%;
+    background-image: url(../../../img/parents.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.section-footer {
+    display: flex;
+    flex-flow: column;
+    
+    @media screen and (min-width: $medium) {
+        flex-flow: row wrap;
+    }
+
+    @media screen and (min-width: $large) {
+        flex-flow: row wrap;    
+        justify-content: space-around;
+    }
+
+    @media screen and (min-width: $x-large) { 
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+}
+
+.section-footer-content, .column-links {
+    // padding: 50px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    @media(min-width: $medium) {
+        width: 50%;
+    }
+}
+
+.heading-footer {
+    font-family: $sofiabold;
+    font-size: 2.5rem;
+    color: $primary-color;
+    margin-bottom: 15px;
+}
+
+.column-links {
+    padding-bottom: 25px;
+}
+
+.cool-footer {
+    display: block;
+    font-family: $sofiasemibold;
+    // margin-right: 50px;
+    color: $dark-grey;
+    text-decoration: none;
+    width: 90px;
+    cursor: pointer;
+    &::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 3px;
+      background: $pink;
+      transition: width .3s;
+      cursor: pointer;
+    }
+    &.cool-footer:hover::after {
+      width: 100%;
+      transition: width .3s;
+      cursor: pointer;
+    }
+  }
+
+.ending-footer-paragraph {
+    color: $hard-grey;
+    width: 240px;
+    text-align: left;
+    font-size: 1.0em;
+    @media(min-width: $medium) {
+        font-size: 1.125em;
+    }
+}
+
+.social-media {
+    display: flex;
+    font-size: 25px;
+    justify-content: flex-end;
+}
+
+.social-media ul a {
+    color: $pink;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.social-media ul a:hover {
+    color:$magenta;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 0.67em;
+    padding: 15px;
+    color: $dark-grey;
+    font-family: $sofiasemibold;
+}

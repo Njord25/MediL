@@ -1,0 +1,122 @@
+.card-section {
+    padding: 115px 0 80px;
+
+    @media screen and (min-width: $small) {
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (min-width: $medium) {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    @media screen and (min-width: $large) {
+        display: flex;
+        flex-direction: row;     
+        justify-content: space-between;
+    }
+    
+      @media screen and (min-width: $x-large) {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+// }
+// /***
+// Tablets
+// **/
+// @media(max-width:991px) and (min-width:768px) {
+//     .card-section
+
+// }
+
+// /*Phones*/
+
+// @media (max-width:767px) {
+//     .card-section {
+//         flex-direction:column;
+//     }
+// }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    @media screen and (min-width: $large) {
+        margin: 15px; 
+    }
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+// img {
+//     border-radius: 5px 5px 0 0;
+// }
+
+.container {
+    padding: 2px 16px;
+}
+
+.paragraph-news p {
+    color:$hard-grey;
+}
+
+.paragraph-news li {
+    padding-bottom: 25px;
+}
+
+
+@media screen and (min-width: $small) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: $medium) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media screen and (min-width: $large) {
+    flex-direction: row;     
+    justify-content: space-between;
+  }
+
+  @media screen and (min-width: $x-large) { 
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+.section-content-news {
+background-color: $light-grey;
+display: grid;
+padding: 120px 0 80px;
+
+    @media screen and (min-width: $small) {
+        grid-template-columns: 100%;
+    }
+    @media screen and (min-width: $large) {
+        grid-template-columns: 100%;
+    }
+}
+
+.news-image {
+    width: 100%;
+    margin-bottom: 25px;
+
+    @media screen and (min-width: $large) {
+        width: 60%;
+    }
+}
+
+.col-txt-content-news {
+    padding: 120px 0px 80px;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;
+}

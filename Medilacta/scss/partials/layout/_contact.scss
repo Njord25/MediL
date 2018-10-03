@@ -1,0 +1,123 @@
+.box {
+    padding: 115px 0 80px;
+    width: 85%;
+
+    @media screen and (min-width: $small) {
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (min-width: $medium) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    @media screen and (min-width: $large) {
+        display: flex;
+        flex-direction: row;     
+        justify-content: space-around;
+    }
+
+      @media screen and (min-width: $x-large) {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+
+.big-top-title {
+    text-align: center;
+}
+
+.top-title {
+    margin-top: 1em;
+    color: $magenta;
+}
+
+.box-container {
+    background-color: $primary-color;
+    padding: 2em 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.magenta-flat-text {
+    color: $magenta;
+    font-family: $sofiasemibold;
+}
+
+.top-block {
+    vertical-align: baseline;
+}
+
+.be-medium {
+    font-size: 2.5em;
+}
+
+.inline-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.title-inscriptions, .subtitle {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: $hard-grey;
+
+}
+
+
+.number {
+    font-family: $font-family-base;
+    font-size: 3.5em;
+    line-height: 1em;
+    margin-right: 2px;
+    color: $secundary-color;
+}
+
+.grey-text {
+    color: $dark-grey;
+    font-size: 1em;
+
+}
+
+.step-section {
+    padding: 30px 0 80px;
+    color: $dark-grey; 
+
+    @media screen and (min-width: $small) {
+        display: flex;
+        flex-direction: column;
+    }
+    @media screen and (min-width: $medium) {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    @media screen and (min-width: $large) {
+        display: flex;
+        flex-direction: row;     
+        justify-content: center;
+    }
+    
+      @media screen and (min-width: $x-large) {
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.step {
+    margin-bottom: 15px;
+    text-align: center;
+    @media screen and (min-width: $large) {
+        margin: 15px;
+        width: 50%; 
+    }
+}
+
+.step-number {
+    width: 35%;
+    margin-top: 20px;
+}
