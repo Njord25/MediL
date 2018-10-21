@@ -125,7 +125,7 @@ ul {
 
 .video-text {
   color: $purple;
-  text-align: justify;
+  text-align: start;
   margin-top: 20px;
   display: inline-block;
 }
@@ -133,7 +133,7 @@ ul {
 .intro-paragraph {
   color: $hard-grey;
   width: 90%;
-  text-align: justify;
+  text-align: start;
 }
 
 @media(min-width: $medium) {
@@ -144,15 +144,18 @@ ul {
 
 .col-txt {
   align-self: flex-start;
+  margin-left: 30px;
   padding: 25px 0 80px;
   @media screen and (min-width: $medium) {
     padding: 120px 0 80px;
+    margin-left: 0px;
     width: 590px;
   }
 
   @media screen and (min-width: $large) {
     padding: 120px 0 80px;
     width: 780px;
+    margin-left: 0px;
   }
 }
 

@@ -13,6 +13,18 @@
 }
 .box-info{
     background-color: $lilac;
+    color:white;
+    padding: 20px 0px 0 15px;
+    
+    @media screen and (min-width: $medium) {
+    padding: 40px 0 0 20px;}
+    
+    @media screen and (min-width: $large) {
+    padding: 25px 10px 0 53px;}
+
+    @media screen and (min-width: $x-large) {
+    padding: 25px 40px 0 77px;}
+
 }
 .box-image{
     background-image: url(../../../img/parents.jpg) !important;
@@ -35,6 +47,14 @@
     }
 }
 /*--- End Pre-footer section --*/
+
+.heading-footer {
+    color: $primary-color;
+    display: inline-block;
+    font-family: $sofiabold;	
+    font-size: 2.5rem;	
+    margin-bottom: 15px;	
+}
 
 .col-txt-pre-footer {
     padding: 120px 7px 80px;
@@ -64,6 +84,7 @@
     display: flex;
     flex-direction: column;
     justify-content: left;
+    padding-left:30px;
     width: 100%;
     @media(min-width: $medium) {
         width: 50%;
