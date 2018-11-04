@@ -166,3 +166,20 @@ ul {
     width: 100%;
   }
 }
+
+.video-responsive {
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  display: block;
+  @media screen and (min-width: $large) {
+    width: 339px;
+    height: 261px;
+  }
+
+  @media screen and (min-width: $x-large) {
+    width: 560px;
+    height: 315px;
+  }
+
+}
